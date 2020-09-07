@@ -51,6 +51,13 @@
             <artifactId>spring-cloud-netflix-eureka-server</artifactId>
             <version>2.2.2.RELEASE</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
